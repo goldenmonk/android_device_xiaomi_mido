@@ -84,3 +84,7 @@ PRODUCT_PACKAGES += \
     libmedia_compat_layer \
     libsf_compat_layer \
     libui_compat_layer
+
+# Fake encryption for keymaster4
+PRODUCT_PACKAGES += \
+    fake_crypt
